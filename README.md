@@ -4,4 +4,4 @@
 
 Практика №2 
 
-![Снимок экрана 2024-09-11 195825](https://github.com/user-attachments/assets/277a9292-9615-4b63-8d81-042883bafc89)
+![{6D343653-85EC-432E-989F-AFFA76ED2DB6}](https://github.com/user-attachments/assets/d899abf6-c0fb-4ef4-86d5-2279243cf251)
