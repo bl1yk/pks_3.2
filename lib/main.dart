@@ -85,27 +85,27 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
 
-            ListTile(
-              title: const Padding(
-                padding: EdgeInsets.all(8.0),
-                child: Text('Запомнить меня',
-                style: TextStyle(
-                  color: Colors.tealAccent,
-                  fontSize: 18,
-                ),
-                ),
-              ),
-
-              leading: Checkbox(
-                activeColor: Colors.black45,
+            Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Checkbox(
                 value: _isChecked,
                 onChanged: (value) {
                   setState(() {
                     _isChecked = value!;
                   });
                 },
+                side: const BorderSide(color: Colors.tealAccent, width: 2),
               ),
-            ),
+              const Text(
+                'Запомнить меня',
+                style: TextStyle(
+                  fontSize: 18,
+                  color: Colors.tealAccent,
+                ),
+              ),
+            ],
+          ),
 
 
 
